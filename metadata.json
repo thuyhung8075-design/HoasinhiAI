@@ -1,0 +1,6 @@
+{
+  "name": "Họa Sĩ Nhí AI – Góc Sáng Tạo Mĩ Thuật Tiểu Học",
+  "description": "Website Mĩ thuật dành cho học sinh tiểu học lớp 1 đến lớp 5: tìm kiếm gợi ý ý tưởng sáng tạo với AI, soi tranh nhận xét khích lệ, quản lý sổ tay sáng tạo và góc giáo viên giao nhiệm vụ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "id": "teacher_mai_huong",
+      "username": "dothanhthuy",
+      "passwordHash": "8d2df59793ab660f368ee8f4b6383c2607456a1e4b8838cbdac1efc9a57cada2",
+      "name": "Cô Đỗ Thanh Thuý",
+      "role": "teacher",
+      "className": "Trường TH & THCS Vân Hà",
+      "avatar": "👩‍🏫",
+      "createdAt": "2026-11-02T13:48:49.820Z"
+    },
+    {
+      "id": "student_minh_anh",
+      "username": "hocsinh1",
+      "passwordHash": "8d2df59793ab660f368ee8f4b6383c2607456a1e4b8838cbdac1efc9a57cada2",
+      "name": "Nguyễn Minh Anh",
+      "role": "student",
+      "grade": 3,
+      "className": "3A",
+      "avatar": "🎨",
+      "createdAt": "2026-11-02T13:48:49.820Z"
+    },
+    {
+      "id": "student_bao_nam",
+      "username": "hocsinh2",
+      "passwordHash": "8d2df59793ab660f368ee8f4b6383c2607456a1e4b8838cbdac1efc9a57cada2",
+      "name": "Trần Bảo Nam",
+      "role": "student",
+      "grade": 5,
+      "className": "5B",
+      "avatar": "🚀",
+      "createdAt": "2026-11-02T13:48:49.820Z"
+    },
+    {
+      "id": "student_linh_dan",
+      "username": "hocsinh3",
+      "passwordHash": "8d2df59793ab660f368ee8f4b6383c2607456a1e4b8838cbdac1efc9a57cada2",
+      "name": "Lê Linh Đan",
+      "role": "student",
+      "grade": 1,
+      "className": "1B",
+      "avatar": "🌸",
+      "createdAt": "2026-11-02T13:48:49.820Z"
+    },
+    {
+      "id": "student_4e38d451-ee39-44e8-a167-77d975e67bd5",
+      "username": "baoan_159",
+      "passwordHash": "216d24c2f221f9a5ba509c99cc9f168f69e364746b339d6b20722f554b440698",
+      "name": "Bảo An",
+      "role": "student",
+      "grade": 3,
+      "className": "3A",
+      "avatar": "🎨",
+      "createdAt": "2026-11-02T15:37:19.429Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "asg_1",
+      "teacherId": "teacher_mai_huong",
+      "teacherName": "Cô Đỗ Thanh Thuý",
+      "title": "Tri ân thầy cô nhân ngày Nhà giáo",
+      "grade": 3,
+      "topics": [
+        "Biết ơn thầy cô",
+        "Màu sắc em yêu"
+      ],
+      "targetClass": "Toàn khối 3",
+      "instructions": "Các con hãy chọn một kỷ niệm thật đẹp với thầy cô, dùng những gam màu tươi sáng ấm áp để thể hiện tấm lòng biết ơn nhé!",
+      "deadline": "2026-11-20",
+      "createdAt": "2026-11-02T13:48:49.820Z"
+    },
+    {
+      "id": "asg_2",
+      "teacherId": "teacher_mai_huong",
+      "teacherName": "Cô Đỗ Thanh Thuý",
+      "title": "Thế giới hòa bình trong mắt em",
+      "grade": 5,
+      "topics": [
+        "Vì một thế giới hòa bình",
+        "Việt Nam đất nước, con người"
+      ],
+      "targetClass": "Lớp 5B",
+      "instructions": "Hãy gửi gắm thông điệp bảo vệ trẻ em, hòa bình thế giới hoặc nét đẹp hiền hòa của quê hương Việt Nam.",
+      "deadline": "2026-11-25",
+      "createdAt": "2026-11-02T13:48:49.820Z"
+    },
+    {
+      "id": "asg_3",
+      "teacherId": "teacher_mai_huong",
+      "teacherName": "Cô Đỗ Thanh Thuý",
+      "title": "Những chấm màu diệu kỳ",
+      "grade": 1,
+      "topics": [
+        "Sáng tạo từ những chấm màu",
+        "Màu cơ bản trong Mĩ thuật"
+      ],
+      "targetClass": "Lớp 1B",
+      "instructions": "Bé hãy chấm thật nhiều đốm màu đỏ, vàng, lam để tạo thành một đàn bướm hoặc vườn hoa rực rỡ nhé!",
+      "deadline": "2026-11-18",
+      "createdAt": "2026-11-02T13:48:49.820Z"
+    }
+  ],
+  "notebookItems": [
+    {
+      "id": "item_sample_1",
+      "userId": "student_minh_anh",
+      "studentName": "Nguyễn Minh Anh",
+      "studentGrade": 3,
+      "studentClass": "3A",
+      "title": "Cơn mưa hoa hướng dương tri ân cô giáo",
+      "grade": 3,
+      "topicName": "Biết ơn thầy cô",
+      "topicId": "k3-4",
+      "mainContent": "Bức tranh vẽ cô giáo đang mỉm cười hiền từ, xung quanh là các bạn nhỏ cùng thả những bông hoa hướng dương vàng rực rỡ.",
+      "charactersAndObjects": "Cô giáo mặc áo dài xanh ngọc bích, 3 bạn nhỏ cầm thiệp và hoa hướng dương, bàn giáo viên có lọ hoa.",
+      "activitiesAndDetails": "Một bạn đang dâng tặng hoa, hai bạn đứng vẫy tay hân hoan, trên bảng đen có dòng chữ nắn nót: \"Kính chúc cô luôn vui tươi\".",
+      "composition": {
+        "foreground": "Hai bạn nhỏ dâng hoa và chiếc bàn giáo viên có khăn trải thêu ren.",
+        "midground": "Cô giáo nở nụ cười tươi tắn ở vị trí trung tâm, đón nhận bó hoa.",
+        "background": "Bảng lớp màu xanh lục đậm, cửa sổ nhìn ra tán bàng xanh mướt và bầu trời nắng ấm."
+      },
+      "colorSuggestions": "Màu vàng hướng dương rực rỡ kết hợp xanh ngọc bích và cam ấm tạo cảm giác thân thương, chan hòa ánh sáng.",
+      "creativeSpark": "Những cánh hoa hướng dương như đang bay nhẹ nhàng trong không khí như một cơn mưa hoa diệu kỳ.",
+      "materialSuggestions": "Màu sáp dầu phối hợp bút chì màu để nhấn chi tiết tà áo và khuôn mặt.",
+      "studentNotes": "Em muốn vẽ thêm con mèo tam thể của trường đang nằm sưởi nắng bên bậu cửa sổ nữa!",
+      "status": "Đang phát triển",
+      "savedCritique": null,
+      "sharedWithTeacher": true,
+      "teacherFeedbacks": [
+        {
+          "id": "fb_1",
+          "teacherId": "teacher_mai_huong",
+          "teacherName": "Cô Đỗ Thanh Thuý",
+          "comment": "Ý tưởng của Minh Anh rất xúc động và tươi sáng! Con nhớ phối nền phía sau thật êm để làm nổi bật tà áo dài xanh ngọc nhé.",
+          "createdAt": "2026-11-02T13:48:49.820Z"
+        },
+        {
+          "id": "fb_fefb0854-2cc0-4de2-854c-7b2214df75a8",
+          "teacherId": "teacher_mai_huong",
+          "teacherName": "Cô Đỗ Thanh Thuý",
+          "comment": "Cô rất khen ngợi Minh Anh! Nhớ điểm thêm chi tiết chú mèo tam thể xinh xắn như con mong muốn nhé.",
+          "createdAt": "2026-11-02T13:52:22.962Z"
+        }
+      ],
+      "createdAt": "2026-11-02T13:48:49.820Z",
+      "updatedAt": "2026-11-02T13:52:22.962Z"
+    },
+    {
+      "id": "nb_88330959-d445-4bb6-9ae3-7c299b2d2829",
+      "userId": "student_minh_anh",
+      "studentName": "Nguyễn Minh Anh",
+      "studentGrade": 3,
+      "studentClass": "3A",
+      "title": "Bản nhạc hòa bình trên bầu trời",
+      "grade": 5,
+      "topicName": "Vì một thế giới hòa bình",
+      "mainContent": "Bức tranh vẽ những chiếc máy bay chở đầy hoa và nhạc cụ thay vì vũ khí.",
+      "charactersAndObjects": "",
+      "activitiesAndDetails": "",
+      "composition": {
+        "foreground": "",
+        "midground": "",
+        "background": ""
+      },
+      "colorSuggestions": "",
+      "creativeSpark": "Phía sau máy bay là dải cầu vồng và nốt nhạc lung linh.",
+      "materialSuggestions": "",
+      "studentNotes": "",
+      "status": "Ý tưởng mới",
+      "savedCritique": null,
+      "sharedWithTeacher": true,
+      "teacherFeedbacks": [],
+      "createdAt": "2026-11-04T00:53:32.225Z",
+      "updatedAt": "2026-11-04T00:53:32.225Z"
+    }
+  ],
+  "sessions": {
+    "838cea0e01a65f5c32e4cc922c510b1fe997e469c4803b5aeb3ee6b8add4a074": {
+      "userId": "student_minh_anh",
+      "expiresAt": 1794232312345
+    },
+    "bbd6ad663f95bffc1e2305a273d2aa1d38fbbc36ac97e72a6d4a246063fd6f9d": {
+      "userId": "teacher_mai_huong",
+      "expiresAt": 1794232331840
+    },
+    "ea70f4189ff4a9f6c24c0a0f65a735eedc4cf23e354d2981db38fd7df506aa27": {
+      "userId": "student_bao_nam",
+      "expiresAt": 1794236492221
+    },
+    "4c31ba6dece0c627baf13ac79fda9cfbe78ac7b6fc623331ecf4491d0fc7c6e2": {
+      "userId": "teacher_mai_huong",
+      "expiresAt": 1794236500452
+    },
+    "eedd707d0e0177c2201f534bb55049668eb9212d148e119c8f9c40f0590bfcbb": {
+      "userId": "student_4e38d451-ee39-44e8-a167-77d975e67bd5",
+      "expiresAt": 1794238639430
+    },
+    "e45907b6e32071c7101b9f591c2fb73118c122979a91cdeef90607299ff89fc9": {
+      "userId": "teacher_mai_huong",
+      "expiresAt": 1794238645287
+    },
+    "466ef2bd22e033d0f1c4a9ef408fd201c82b4710f768b466daba5f35495326e5": {
+      "userId": "student_minh_anh",
+      "expiresAt": 1794358406380
+    },
+    "b3a2dc71119f96e94e152255df6944e3e9e5a7a44632c18230471f09574e25b8": {
+      "userId": "teacher_mai_huong",
+      "expiresAt": 1794417048480
+    },
+    "62d8e93db68221da691a4ece91b38c8e9925b45b25599198107e1083e6c35e39": {
+      "userId": "teacher_mai_huong",
+      "expiresAt": 1794417052210
+    }
+  }
+}
